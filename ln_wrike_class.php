@@ -41,8 +41,8 @@ class LN_WRIKE {
 	// this allows us to set responsible users for wrike tasks
 	// check out: http://caius.github.io/github_id/
 	protected $github_user_ids = array(
-					'Dev #1 Github ID'	=> 'Dev #1 Wrike ID',	//User 1
-					'Dev #2 Github ID'	=> 'Dev #2 Wrike ID',	//User 2, etc..
+					'efwong'	=> 'ewong@centerfield.com',	//User 1
+					//'Dev #2 Github ID'	=> 'Dev #2 Wrike ID',	//User 2, etc..
 				);
 
 	public function __construct($secret, $consumer, $token, $token_secret){
